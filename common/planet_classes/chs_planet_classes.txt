@@ -1,0 +1,57 @@
+### Halo Section
+
+pc_halo = {
+	ringworld = yes
+
+	entity = "halo_entity"
+	entity_scale = 1 							
+
+	picture = pc_halo
+	tile_set = pc_halo
+	outliner_planet_type = special
+
+	icon_frame = 21
+	enable_tilt = yes
+
+	atmosphere_color 		= hsv { 0.40 0.5 0.9 }		
+	atmosphere_intensity 	= 0.5
+	atmosphere_width 		= 0.5
+
+	spawn_odds = 0
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0.0
+	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	
+	show_city = yes
+	star = no 										# dont want to spawn a star here
+	colonizable = yes							# gains surface with tiles of tile_set
+	ideal = yes									# gaia world status
+	starting_planet = no						# can be a starting planet 
+	orbit_lines = yes							# gives orbit lines
+}
+
+### Ruined World
+
+pc_ruined_world = {
+	entity = "ruined_world_entity"
+	entity_scale = @planet_standard_scale
+	
+	picture = pc_barren	
+	icon_frame = 10
+	
+	atmosphere_color 		= hsv { 0.1 0.4 0.7 }		#DONE
+	atmosphere_intensity 	= 1.0
+	atmosphere_width 		= 0.5
+
+	spawn_odds = 0
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0.0
+	
+	extra_orbit_size = 0
+	extra_planet_count = 0	
+	colonizable = no
+	starting_planet = no
+	star = no
+}

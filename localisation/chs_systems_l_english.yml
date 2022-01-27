@@ -1,0 +1,15 @@
+﻿l_english:
+ 
+ chs_1_NAME:0 "Academy"
+ chs_1_DESC:0 "A custom made home system\n\n$system_initializer_DESC$"
+ 
+ pc_halo:0 "Halo World"
+ pc_halo_desc:0 "An ancient space station at the very edge of the system. It contains enviroments suitable for all manner of species"
+ pc_halo_tile:0 "Halo Terrain"
+ pc_halo_tile_desc:0 "A range of different biomes suitable for any species."
+ 
+ pc_ruined_world:0 "Broken Planet"
+ pc_ruined_world_desc:0 "A planet ruined in some past calamity"
+ 
+ name_list_GREEK:0 "Greek" 
+ 

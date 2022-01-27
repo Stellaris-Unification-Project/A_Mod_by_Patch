@@ -1,0 +1,365 @@
+### Custom Home Systems
+
+@base_moon_distance = 10
+
+# Home System I
+chs_1 = {
+	usage = custom_empire
+	flags = { empire_home_system }
+	asteroids_distance = 90
+	
+		planet = {
+		name = "Plato"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = random
+		size = 20
+		has_ring = no
+	}
+		
+	planet = {
+		name = "Charmides"
+		class = "pc_molten"
+		size = 13
+		orbit_distance = 25
+		orbit_angle = random
+		has_ring = no
+		
+		moon = {
+			name = "Crito"
+			class = "pc_molten"
+			size = 3
+			orbit_distance = 6
+			orbit_angle = random
+			has_ring = no
+		}
+
+		moon = {
+			name = "Euthyphro"
+			class = "pc_molten"
+			size = 4
+			orbit_distance = 3
+			orbit_angle = random
+			has_ring = no
+		}		
+	}	
+
+	planet = {
+		name = "Gorgias"
+		class = "pc_ruined_world"
+		orbit_distance = 20
+		orbit_angle = random
+		size = 20
+		has_ring = no
+
+		init_effect = {
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
+		}
+	}
+	
+	planet = {
+		name = "Hippias"
+		class = "pc_toxic"
+		orbit_distance = 10
+		orbit_angle = random
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Socrates"
+		class = ideal_planet_class
+		orbit_distance = 15
+		orbit_angle = random
+		size = { min = 16 max = 20 }
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}							
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 2
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_basic_science_lab_1"
+				random_list = {
+					33 = { 
+						add_resource = {
+							resource = engineering_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = physics_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = society_research
+							amount = 1
+							replace = yes
+						}						
+					}					
+				}					
+			}	
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_mining_network_1"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "Ion"
+			class = "pc_barren"
+			size = 6
+			orbit_distance = 9
+			orbit_angle = random
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = pc_asteroid
+		name = "Laches"
+		orbit_angle = random
+		orbit_distance = 22
+		size = 4
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_asteroid
+		name = "Lysis"
+		orbit_angle = random
+		orbit_distance = 0
+		size = 4
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_asteroid
+		name = "Protagoras"
+		orbit_angle = random
+		orbit_distance = 0
+		size = 3
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_asteroid
+		name = "Cratylus"
+		orbit_angle = random
+		orbit_distance = 0
+		size = 3
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_asteroid
+		name = "Euthydemus"
+		orbit_angle = random
+		orbit_distance = 0
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Meno"
+		class = "pc_gas_giant"
+		orbit_distance = 38
+		orbit_angle = random
+		size = 45
+		has_ring = no
+		
+		moon = {
+			name = "Parmenides"
+			class = "rl_habitable_normal"
+			size = 16
+			orbit_distance = 20
+			orbit_angle = random
+			has_ring = no
+		}
+		moon = {
+			name = "Phaedo"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 4
+			orbit_angle = random
+			has_ring = no
+		}
+		moon = {
+			name = "Phaedrus"
+			class = "pc_toxic"
+			size = 9
+			orbit_distance = 2
+			orbit_angle = random
+			has_ring = no
+		}
+		moon = {
+			name = "Theaetetus"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = random
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = rl_habitable_normal
+		name = "Critias"
+		orbit_angle = random
+		orbit_distance = 35
+		size = 20
+		has_ring = yes
+		
+		moon = {
+			name = "Sophist"
+			class = "pc_barren"
+			size = 9
+			orbit_distance = 12
+			orbit_angle = random
+			has_ring = no
+		}
+		moon = {
+			name = "Timaeus"
+			class = "pc_frozen"
+			size = 3
+			orbit_distance = 2.5
+			orbit_angle = random
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = pc_halo
+		name = "Academy"
+		orbit_angle = random
+		orbit_distance = 22
+		size = 10
+		has_ring = no
+	}
+}
+	
+	

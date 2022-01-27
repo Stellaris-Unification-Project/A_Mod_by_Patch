@@ -1,0 +1,245 @@
+﻿GREEK = {
+	### SHIPS
+	randomized = no
+
+	ship_names = {
+
+		generic = {
+				Achilles Aiakos Aeolus Alabandus Amphiaraus Ariadne Aristaeus Asclepius Attis Bolina Castor Pollux Endymion Ganymede Glaucus Hemithea Parthanos Heracles Lampsace Minos Ino Tenes Phoebe Hilarea
+				Orithyia Palaemon Phylonoe Psyche Semele Abderus Aeneas Ajax Amphitryon Antilochus Bellerophon Chrysippus Daedalus Diomedes Eleusis Eunostus Hector Icarus Iolaus Jason Meleager Odysseus Orpheus
+				Pandion Perseus Theseus Achlys Aion Aether Ananke Chaos Chronos Erebus Eros Hemera Hypnos Gaia Nemesis "The Nesoi" Nyx Uranus "The Ourea" Phanes Pontus Tartarus Thalassa Thanatos Eos Helios
+				Themis Oceanus Athena Coeus Crius Cronus Hyperion Iapetus Mnemosyne Phoebe Rhea Tethys Theia Themis Asteria Astraeus Atlas Aura Clymene Dione Helios Selene Epimetheus Eurybia Eurynome Lelantos
+				Leto Menoetius Metis Ophion Pallas Perses Prometheus Styx Agrius Alcyoneus Chthonius Clytius Enceladus Ephialtes Eurymedon Eurytus Gration Hippolytus Leon Mimas Pallas Polybotes Porphyrion Thoas
+				Aphrodite Apollo Ares Artemis Athena Demeter Dionysus Hades Hephaestus Hera Hermes Hestia Poseidon Zeus
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+		#terraform_station = {}
+		observation_station = {}
+		outpost_station = {}
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"Great Expeditionary Force" "Grand Attack Fleet" "Home Defence Force" 
+		}
+		sequential_name = "%O% Phalanx"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Toxotai"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Hypaspists"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Pantodapoi"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Podromoi"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Argyraspides"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Thorakitai"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Agema"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Hetairoi"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gymnitai"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+					Aphrodisias Gaza Neapolis Sphettus Croton Teos Aegae Hermiae Athens Saccas Ithaca Naxos Argos Abdera Abila Abydos Acanthus Acharnae Actium Aegina Aegium Aenus Agrinion Aigosthena Akragas Akrai
+					Miletus Tyre Rhodes Tarsus Ascalon Cyrene Akrillai Tyana Selucia Cronus Akroinon Tarsus Akrotiri Alalia Cyrene Alinda Samos Amarynthos Chios Messene Ceos Alexandria Mytilene Amaseia Ambracia Philus
+					Amida Amisos Soli Cananites Cordylion Amnisos Amphigeneia Amphipolis Amphissa Borysthenes Sidon Mendes Ankon Achaea Antigona Antipatrea Antioch Andros Apamea Arsuf Artanes Artemita Argyroupoli
+					Asklepios Aspendos Assus Adstacus Aytos Baris Tarentum Soli Bhrytos Borysthenes Berge Boura Pergamon Thebes Mallus Bouthroton Berge Brauron Byblos Byllis Byzantium Bythinion Cebrene Calydon Carystus
+					Amphipolis Lamptrai Chalcedon Tarsus Melos Sinope Babylon Apollonia Aspendus Oenoanda Mantinea Chamaizi Larissa Chalcis Chersonesos Chios Kos Chyri Cnidus Colosse Corcyra Cnidus Cumae Cyme
+					Cythera Decelea Delos Delphi Myndus Cappadocia Demetrias Dimale Didyma Dion Dioscurias Tarsus Adbera Dodona Dorylaion Dyme Edessa Elateia Eleusis Eleutherna Emporion Carthage Ephyra Epidamnos
+					Epidauros Eresos Smyrna Clazomenae Eretia Erythrae Eubea Gangra Gaza Maroneia Gela Golgi Gonnos Gorgippia Gournia Gortyn Gythium Lampsacus Chios "Hagious Onouphrios" Nysa "Hagia Triada" Halicarnassus
+					Halike Troas Iasos Heliopolis Taras Gadara Ephesus Hellespontos Helorus Pyrrha Stratonicea Lampsacus Cos Gades Hemeroshopeion Hermione Damascus Megara Heraclea Hermonassa Apamea Hierapetra
+					Hierapolis Himera Histria Hybla Hyele Ialysos Iasus Idalium Imbros Elea Iolcus Itanos Ithaca Juktas Elis Eresus Opus Kallipolis Aegina Kamares  Kameiros Kannia Kamarina Kasenai Katane Kerkinitida Kepoi
+					Kimmerikon Kios Knossos Kos Kourion Kydonia Kyrenia Lamia Lampsacus Laodicea Lapithos Lato Laus Lebena Leibethra Lefkada Emesa Leontini Lepreum Lindus Lissus "Epizephyrian Locris" Magnesia Mallia
+					Marathon Massaslia Megalopolis Mesembria Metapontum Methone Methymna Mochlos Monastriki Morgantina Mylasa Phocis Myndus Myonia Patras Myra Mymekion Mytilene Asine Naucratis Naupactus Corinth
+					Naxos Neapoli Nicaea "Nirou Chani" Nymphaion Nysa Oenoe Colophon Tarsus Sidon Elea Citium Oenus Odessos Olbia Olous Olympia Olynthus Orchomenus Oricos Orestia Oreus Oropus Onchesmos Pagasae
+					Palaikastro Pandosia Panticapaeum Paphos Paros Patrae Pavlopetri Pelion Peiraieus Pella Pargamum Petsofa Phaistos Phaleron Phanagoria Pharae Pharnacia Pharos Phaselis Phillipi Pithecussae Philippopolis
+					Plantanos Phlius Pherae Phocaea Pinara Pisa Pitiunt Pixous Plataea Poseidonia Potidaea Priene Prousa Pseira Psychro Pteleum Pydna Pylos Pyrgos Rhamnus Rhegion Rhithymna Rhypes Rizinia Salamis Same
+					Samos Selinus Seleucia Semasus Sestos Scidrus Sicyon Side Siteia Siris Sklavokampus Soli Sozopolis Sparta Stagirus Stratos Stymphalos Sybaris Syracuse Taras Tanagra Tanais Tauromenion Tegea Tenedos
+					Tenea Teos Thassos Theodosia Therma Thespiae Thronion Thoricus Thurii Thyreum Thyria Tomis Tragurion Trapeze Trapezus Tripolis Troezen Troy Tylissos Tyras Tyros Tyritake Vasiliki Vathypros Zakynthos
+					Zakros Zancle
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+				Acrion Adrastus Aedesia Aedesius Aeneas Aenesideums Aesara Aeschnices Aetius Agapius Agathosbulus Agathosthenes Agrippa Albinus Alcinous Alcmaeon Alexamenus Alexander Alexicrates Alexinus Amelius
+				Ammonius Anaxgoras Anaxarchus Anaxilaus Anaximander Anaximenes Androcydes Andronicus Anniceris Antiochus Antipater Antisthenes Antoninus Apollodorus Apollonius Arceselaus Archedemus Archelaus
+				Archytas Arete Arigonte Aristarchus Aristippus Aristoclea Aristocles Aristocreon Aristo Aristotle Aristoxenus Arius Asclepiades Asclepiotus Asclepiodotus Aspasius Athenaeus Athenodoros Attalus Atticus Basilides
+				Batis Bion Boethus Bolus Brontinus Bryson Callicles Calliphon Callistratus Carneades Carneiscus Cassius Cebes Celsus Cercidas Cercops Chaerephon Chamaeleon Charmadas Chrysanthius Chrysippus Cleanthes
+				Clearchus Cleinias Cleomedes Cleomenes Clinomachus Colotes Crantor Crates Cratippus Cratylus Crescens Crinis Critolaus Cronius Damascius Damis Damo Dardanus Demetrius Democritus Demonax Dexippus
+				Diagoras Dicaearchus Dio Diocles Diodorus Diogenes Diotima Diotimus Domninus Echecrates Ecphantes Empedocles Epicharmus Epictetus Epicurus Eubulides Euclid Eudemus Eudoxus Euenus Euphantus Euphraeus
+				Euphrates Eurytus Eusebius Eustathius Evander Favorinus Gaius Geminus Gorgias Hagon Hecataeus Hecato Hegesias Hegesinus Hegias Heliodorus Heraclides Heraclitus Heraclius Herillus Hermagoras Harmarchus
+				Hermias Herminus Hermippus Hermotimus Hicetas Hierius Hierocles Hieronymus Himerius Hipparchia Hippasus Hippias Hippo Horus Iamblichus Ichthyas Idomeneus Ion Isidore Jason Lacydes Leonteus Leontion
+				Lecippus Lyco Lycophron Lysis Marinus Maximus Meleager Melissus Menedemus Menippus Metrocles Metrodorus Mnesarchus Monimus Myia Nausiphanes Nicarete Nicolaus Nicomachus Numenius Nymphidanus Ocellus
+				Oenomaus Olympiodorus Onasander Onatas Origen Panaetius Panacrates Panthodies Parmenides Pasicles Patro Peregrinus Persaeus Phaedo Phanias Phanto Philip Philiscus Philo Philodemus Philolaus Phintys Plato
+				Plotinus Plutarch Polemarchus Polemon Polus Polyaenus Polystratus Porphyry Posidonius Potamo Praxiphanes Priscian Priscus Proclus Prodicus Protagoras Ptolemy Pyrrho Pythagoras Sallustius Satyrus Secundus
+				Sextus Simmias Simon Simplicus Siro Socrates Sopater Sosigenes Sosipatra Sotion Speusippus Sphaerus Stilpo Strato Syrianus Telauges Telecles Teles Thales Theagenes Theano Themista Themistius Theodorus
+				Theon Theophrastus Thrasymachus Timaeus Timon Timycha Tisias Xenarchus Xeniades Xenocrates Xenophanes Xenophilus Zenobius Zenodotus Zeno Agathocles Andragathus Androsthenes Ariston Cassander
+				Demetrius Diodorus Heraclides Lagoras Lysias Lysmiachus Nicanor Nicarchus Ophellas Polyxenidas Pyrrhias Scopas Seleucus Theodotus Adeimantus Agyyhius Alcibiades Alexicles Apollodorus Aristides Axiochus 
+				Cephisodotus Chabrias Chares Cimon Cleonymus Ctesicles Demaenetus Pericles Nicias Myrmidon Laedaemonius Achillies Odysseus		
+			}
+			
+			# Always combined with a second name
+			first_names_female = {
+				Hypatia Electra Pandora Ariadne Europa Helen Medea Medusa Penelope Semele Jocasta Atlanta Alcestis Amymone Andromache Andromeda Antigone Arachne Ariadne Briseis Caeneus Cassandra Cassiopeia
+				Clytemnestra Danae Deianeira Hecuba Iphigenia Ismene Niobe Phaedra Polyxena Thrace Pyhtia Manto Carnus Ennomus Aegea Aella Alcibie Antandre Antiope Areto Asteria Bremusa Celaeno Eurypyle Hippolyta
+				Hippothoe Iphito Lampedo Marpesia Melanippe Molpadia Myrina Orithyia  Otrera Pantariste Thalestris Abia Acallaris Abrota Aegiale Aedon Aethilla Aethra Agave Alcidice Alcimede Alcmene Alcyone Alope Althaea
+				Amethystos Anaxarete Anaxo Anticlea Apemosyne Arete Arganthone Argea Argynnus Aspalis Astyanassa Astypalaea Auge Autonoe Batea Baubo Baucis Bianna Bura Byblis Callidice Callithyia Canace Cassiopeia
+				Celtine Cerdo Chinoe Chromia Chrysanthis Chryseis Chthonophyle Cleopatra Ctesylla Deipyle Dia Diomede Dirce Dryope Electryone Enarte Endeis Epipole Epirus Eriphyle Eulimene Eurycleia Euryte Gerana
+				Gorgophone Hecamede Herippe Hermippe Hippodamia Hyacinthus Hyrimine Hyrnetho Ilione Iodame Iphimedeia Laodice Lethaea Leugophrye Lupa Melite Menippe Messene Metaneira Metioche Mestra Myrrha
+				Nuasicaa Nyctimene Nemesis Oenone Omphale Paeon Pandaie Phyllis Physcoa Proclia Pyrrha Rhoeo Sidero Selene Sostratus Sparta Stheneboea Telecleia Telephassa Themiste Themisto Theophane Thisbe
+				Timandra Tyro
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"the Pythagorean" "the Peripatetic" "the Neoplatonic" "the Pyrrhonist" "the Skeptic" "the Socratic" "the Platonic" "the Cyrenaic" "the Megarian" "the Atomist" "the Pluralist" "The Stoic" "the Milesian" "the Romantic"
+				"the Wise" "the Greedy" "the Kind" "the Ugly" "the Fair" "the Poet" "the Politician" "the Philosopher" "the Soldier" "the Good" "the Builder" "the Sailor" "the Sceptic" "the Cynic" "the Elder" "the Younger" "the Great"
+				"the Lesser" "the Common" "the Epicurean" "the Sophist" "the Atheist" "the Sophist" "the Dialectician" "the Pagan" "the Platonist" "the Renegade" "the Wise" "the Pious" "of Macedonia" "of Epirus" "of Illyria" "of Thrace"
+				"of Crete" "of Arcadia" "of Laconia" "of Thessaly" "of Attica" "of Euboea" "of Mysia" "of Caria" "of Ionia" "of Lydia" "of Elis" "of Acanrina" "of Aeniania" "of Aetolia" "of Aperantia" "of Boeotia" "of Dolopia" "of Doris"
+				"of Locris" "of Malis" "of Megaris"  "of Oetaea" "of Phocis" "of Achaea" "of Argolis" "of Corinthia" "of Messenia" "of Achaea Phthiotis" "of Magnesia" "of Histiaeotis" "of Pelasgiotis" "of Perrhaebia" "of Thessaloitis"
+				"of Athamania" "of Chaonia" "of Dassaretia" "of Molossis" "of Thesprotia" "of Parauaea" "of Tymphaea" "of Almopia" "of Bisaltia" "of Bottiaea" "of Chalcidice" "of Crestonia" "of Edonis" "of Elimiotis" "of Ematha"
+				"of Eordaea" "of Lynjestis" "of Mygodonia" "of Odomantis" "of Orestis" "of Pelagonia" "of Piera" "of Sintice" "of Magna Graecia" "of Asia Minor" "or Aeolis" "of Pontus" "of Cyprus" "of Crimea" "of Cyrenaica"
+				"of the Peloponnese" "of Theasslaia"
+			}
+			
+			regnal_first_names = {
+			
+			}
+			
+			regnal_first_names_male = {
+				Acrion Adrastus Aedesia Aedesius Aeneas Aenesideums Aesara Aeschnices Aetius Agapius Agathosbulus Agathosthenes Agrippa Albinus Alcinous Alcmaeon Alexamenus Alexander Alexicrates Alexinus Amelius
+				Ammonius Anaxgoras Anaxarchus Anaxilaus Anaximander Anaximenes Androcydes Andronicus Anniceris Antiochus Antipater Antisthenes Antoninus Apollodorus Apollonius Arceselaus Archedemus Archelaus
+				Archytas Arete Arigonte Aristarchus Aristippus Aristoclea Aristocles Aristocreon Aristo Aristotle Aristoxenus Arius Asclepiades Asclepiotus Asclepiodotus Aspasius Athenaeus Athenodoros Attalus Atticus Basilides
+				Batis Bion Boethus Bolus Brontinus Bryson Callicles Calliphon Callistratus Carneades Carneiscus Cassius Cebes Celsus Cercidas Cercops Chaerephon Chamaeleon Charmadas Chrysanthius Chrysippus Cleanthes
+				Clearchus Cleinias Cleomedes Cleomenes Clinomachus Colotes Crantor Crates Cratippus Cratylus Crescens Crinis Critolaus Cronius Damascius Damis Damo Dardanus Demetrius Democritus Demonax Dexippus
+				Diagoras Dicaearchus Dio Diocles Diodorus Diogenes Diotima Diotimus Domninus Echecrates Ecphantes Empedocles Epicharmus Epictetus Epicurus Eubulides Euclid Eudemus Eudoxus Euenus Euphantus Euphraeus
+				Euphrates Eurytus Eusebius Eustathius Evander Favorinus Gaius Geminus Gorgias Hagon Hecataeus Hecato Hegesias Hegesinus Hegias Heliodorus Heraclides Heraclitus Heraclius Herillus Hermagoras Harmarchus
+				Hermias Herminus Hermippus Hermotimus Hicetas Hierius Hierocles Hieronymus Himerius Hipparchia Hippasus Hippias Hippo Horus Iamblichus Ichthyas Idomeneus Ion Isidore Jason Lacydes Leonteus Leontion
+				Lecippus Lyco Lycophron Lysis Marinus Maximus Meleager Melissus Menedemus Menippus Metrocles Metrodorus Mnesarchus Monimus Myia Nausiphanes Nicarete Nicolaus Nicomachus Numenius Nymphidanus Ocellus
+				Oenomaus Olympiodorus Onasander Onatas Origen Panaetius Panacrates Panthodies Parmenides Pasicles Patro Peregrinus Persaeus Phaedo Phanias Phanto Philip Philiscus Philo Philodemus Philolaus Phintys Plato
+				Plotinus Plutarch Polemarchus Polemon Polus Polyaenus Polystratus Porphyry Posidonius Potamo Praxiphanes Priscian Priscus Proclus Prodicus Protagoras Ptolemy Pyrrho Pythagoras Sallustius Satyrus Secundus
+				Sextus Simmias Simon Simplicus Siro Socrates Sopater Sosigenes Sosipatra Sotion Speusippus Sphaerus Stilpo Strato Syrianus Telauges Telecles Teles Thales Theagenes Theano Themista Themistius Theodorus
+				Theon Theophrastus Thrasymachus Timaeus Timon Timycha Tisias Xenarchus Xeniades Xenocrates Xenophanes Xenophilus Zenobius Zenodotus Zeno Agathocles Andragathus Androsthenes Ariston Cassander
+				Demetrius Diodorus Heraclides Lagoras Lysias Lysmiachus Nicanor Nicarchus Ophellas Polyxenidas Pyrrhias Scopas Seleucus Theodotus Adeimantus Agyyhius Alcibiades Alexicles Apollodorus Aristides Axiochus 
+				Cephisodotus Chabrias Chares Cimon Cleonymus Ctesicles Demaenetus Pericles Nicias Myrmidon Laedaemonius Achillies Odysseus
+			}
+			
+			regnal_first_names_female = {
+				Hypatia Electra Pandora Ariadne Europa Helen Medea Medusa Penelope Semele Jocasta Atlanta Alcestis Amymone Andromache Andromeda Antigone Arachne Ariadne Briseis Caeneus Cassandra Cassiopeia
+				Clytemnestra Danae Deianeira Hecuba Iphigenia Ismene Niobe Phaedra Polyxena Thrace Pyhtia Manto Carnus Ennomus Aegea Aella Alcibie Antandre Antiope Areto Asteria Bremusa Celaeno Eurypyle Hippolyta
+				Hippothoe Iphito Lampedo Marpesia Melanippe Molpadia Myrina Orithyia  Otrera Pantariste Thalestris Abia Acallaris Abrota Aegiale Aedon Aethilla Aethra Agave Alcidice Alcimede Alcmene Alcyone Alope Althaea
+				Amethystos Anaxarete Anaxo Anticlea Apemosyne Arete Arganthone Argea Argynnus Aspalis Astyanassa Astypalaea Auge Autonoe Batea Baubo Baucis Bianna Bura Byblis Callidice Callithyia Canace Cassiopeia
+				Celtine Cerdo Chinoe Chromia Chrysanthis Chryseis Chthonophyle Cleopatra Ctesylla Deipyle Dia Diomede Dirce Dryope Electryone Enarte Endeis Epipole Epirus Eriphyle Eulimene Eurycleia Euryte Gerana
+				Gorgophone Hecamede Herippe Hermippe Hippodamia Hyacinthus Hyrimine Hyrnetho Ilione Iodame Iphimedeia Laodice Lethaea Leugophrye Lupa Melite Menippe Messene Metaneira Metioche Mestra Myrrha
+				Nuasicaa Nyctimene Nemesis Oenone Omphale Paeon Pandaie Phyllis Physcoa Proclia Pyrrha Rhoeo Sidero Selene Sostratus Sparta Stheneboea Telecleia Telephassa Themiste Themisto Theophane Thisbe
+				Timandra Tyro			
+			}
+			
+			regnal_second_names = {
+				Argead Battiad Lagidae Lelegid Lacedaemonid Atreid Heraclid Agiad Eurypontid Antipatrid Antigonid Seleucid Alcmaeonid
+			}
+		}
+	}
+}
